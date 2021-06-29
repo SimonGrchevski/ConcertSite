@@ -152,7 +152,7 @@ ul {
 
 .headline-wrapper {
   position: relative;
-  height: calc(100vh - 400px);
+  height: calc(100vh - 160px);
 }
 
 .headline-wrapper::before {
@@ -277,6 +277,9 @@ ul {
   flex-direction: column;
   align-items: center;
   padding-top: 30px;
+  background-image: url(../assets/images/blackbg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .faturing-bands-container {
@@ -287,10 +290,16 @@ ul {
   margin: 20px 0;
   justify-content: space-between;
   text-align: center;
+  box-shadow: 0 0 1.5px 0 rgba(255, 101, 80, 0.7);
 }
 
 .band p {
   font-size: 13px;
+  color: #d3d3d3;
+}
+
+.featured-band-info-container {
+  background: linear-gradient(to right, #000 30%, #ec53422f);
 }
 
 .featured-band-info-container h3 {
@@ -306,8 +315,6 @@ ul {
   width: 100%;
   height: 100%;
 }
-
-.band {}
 
 
 /* =================================
