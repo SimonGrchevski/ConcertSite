@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/main.css">
+  <script src="https://kit.fontawesome.com/ff14198858.js" crossorigin="anonymous"></script>
   <title>Prog concerts</title>
 </head>
 
@@ -26,9 +27,11 @@
     <section class="main-header">
       <div class="none header-logo"></div>
 
-      <section class="drop-down">
-        <button class="menu-bar">Menu</button>
-        <ul class="nav-bar">
+      <section class="drop-down flex">
+        <div class=" menu-bar">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-bar none">
           <li class="close-menu">Close</li>
           <li><a href="#">About</a></li>
           <li><a href="#">Program</a></li>
@@ -40,6 +43,7 @@
       </section>
     </section>
   </header>
+
   <main>
 
     <!--        =====================
@@ -61,7 +65,7 @@
         </section>
       </section>
     </article>
-
+    <div class="divider"></div>
 
 
     <!--        =====================
@@ -70,7 +74,7 @@
     -->
     <section class="main-program bg-dark flex">
       <header>
-        <h3 class="clr-light-gray">Main program</h3>
+        <h2 class="clr-primary">Main program</h2>
       </header>
 
 
@@ -83,7 +87,7 @@
 
         <section class="event flex">
           <article class="daily-program-img">
-            <img src=" # " alt=" ">
+            <i class="fas fa-guitar"></i>
           </article>
           <article class="daily-program-title clr-primary">
             <h3>Lecture</h3>
@@ -101,7 +105,7 @@
         -->
         <section class="event flex">
           <article class="daily-program-img">
-            <img src=" # " alt=" ">
+            <i class="fas fa-drum"></i>
           </article>
           <article class="daily-program-title clr-primary">
             <h3>Lecture</h3>
@@ -120,7 +124,7 @@
 
         <section class="event flex">
           <article class="daily-program-img">
-            <img src=" # " alt=" ">
+            <i class="fas fa-sliders-h"></i>
           </article>
           <article class="daily-program-title clr-primary">
             <h3>Lecture</h3>
@@ -131,7 +135,6 @@
             </p>
           </article>
         </section>
-
         <!--        =====================
                     day 4   
                     ===================== 
@@ -139,7 +142,7 @@
 
         <section class="event flex">
           <article class="daily-program-img">
-            <img src=" # " alt=" ">
+            <i class="fab fa-creative-commons-sampling-plus"></i>
           </article>
           <article class="daily-program-title clr-primary">
             <h3>Lecture</h3>
@@ -150,7 +153,6 @@
             </p>
           </article>
         </section>
-
 
         <!--        =====================
                     day 5 
@@ -159,7 +161,7 @@
 
         <section class="event flex">
           <article class="daily-program-img">
-            <img src=" # " alt=" ">
+            <i class="fas fa-record-vinyl"></i>
           </article>
           <article class="daily-program-title clr-primary">
             <h3>Lecture</h3>
@@ -171,6 +173,8 @@
           </article>
         </section>
       </section>
+
+
       <section><button class="daily-program-btn bg-primary clr-light-gray">Buy Ticket for 1kg meat</button></section>
     </section>
 
@@ -179,28 +183,26 @@
         <h3>Featured Bands</h3>
       </header>
 
-
-
-
-      <section class="faturing-bands-container margin-x-5 ">
+      <section class="faturing-bands-container margin-x-5 flex">
 
         <!--        =====================
                     First Band 
                     ===================== 
         -->
         <article class="band flex ">
-          <section class="featured-band-img">
-            <img src=" " alt=" ">
+          <section class="featured-band-img width-35">
+            <img src="./assets/images/res.jpeg" alt="an image of the band porcupine tree" class="band-image">
           </section>
-          <section class="featured-band-info-container ">
+          <section class="featured-band-info-container width-60">
             <header>
               <h3>
-                Porcupine Tree
+                IQ
               </h3>
-              <p class="introduction "><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo error esse quidem illo facere.</i></p>
+              <p class="introduction clr-primary"><i>A brief introduction to this great band of ours.</i></p>
             </header>
+            <hr class="band-info-hr">
             <div class="featured-band-histroy ">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil saepe adipisci voluptatem voluptas magnam quibusdam quas vel tempora id, blanditiis eum expedita beatae modi. Perspiciatis quaerat nobis aut ab.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil.</p>
             </div>
           </section>
         </article>
@@ -211,40 +213,45 @@
         -->
 
         <article class="band flex ">
-          <section class="featured-band-img flex-basis-30 ">
-            <img src=" " alt=" ">
+          <section class="featured-band-img width-35">
+            <img src="./assets/images/res.jpeg" alt="an image of the band porcupine tree" class="band-image">
           </section>
-          <section class="featured-band-info-container ">
+          <section class="featured-band-info-container width-60">
             <header>
               <h3>
-                Porcupine Tree
+                IQ
               </h3>
-              <p class="introduction "><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo error esse quidem illo facere.</i></p>
+              <p class="introduction clr-primary"><i>A brief introduction to this great band of ours.</i></p>
             </header>
+            <hr class="band-info-hr">
             <div class="featured-band-histroy ">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil saepe adipisci voluptatem voluptas magnam quibusdam quas vel tempora id, blanditiis eum expedita beatae modi. Perspiciatis quaerat nobis aut ab.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil.</p>
             </div>
           </section>
         </article>
+
+
 
         <!--        =====================
                     Third Band  
                     ===================== 
         -->
 
+
         <article class="band flex ">
-          <section class="featured-band-img flex-basis-30 ">
-            <img src=" " alt=" ">
+          <section class="featured-band-img width-35">
+            <img src="./assets/images/res.jpeg" alt="an image of the band porcupine tree" class="band-image">
           </section>
-          <section class="featured-band-info-container ">
+          <section class="featured-band-info-container width-60">
             <header>
               <h3>
-                Porcupine Tree
+                IQ
               </h3>
-              <p class="introduction "><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo error esse quidem illo facere.</i></p>
+              <p class="introduction clr-primary"><i>A brief introduction to this great band of ours.</i></p>
             </header>
+            <hr class="band-info-hr">
             <div class="featured-band-histroy ">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil saepe adipisci voluptatem voluptas magnam quibusdam quas vel tempora id, blanditiis eum expedita beatae modi. Perspiciatis quaerat nobis aut ab.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil.</p>
             </div>
           </section>
         </article>
@@ -254,19 +261,21 @@
                     ===================== 
         -->
 
+
         <article class="band flex ">
-          <section class="featured-band-img flex-basis-30 ">
-            <img src=" " alt=" ">
+          <section class="featured-band-img width-35">
+            <img src="./assets/images/res.jpeg" alt="an image of the band porcupine tree" class="band-image">
           </section>
-          <section class="featured-band-info-container ">
+          <section class="featured-band-info-container width-60">
             <header>
               <h3>
-                Porcupine Tree
+                IQ
               </h3>
-              <p class="introduction "><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo error esse quidem illo facere.</i></p>
+              <p class="introduction clr-primary"><i>A brief introduction to this great band of ours.</i></p>
             </header>
+            <hr class="band-info-hr">
             <div class="featured-band-histroy ">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil saepe adipisci voluptatem voluptas magnam quibusdam quas vel tempora id, blanditiis eum expedita beatae modi. Perspiciatis quaerat nobis aut ab.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil.</p>
             </div>
           </section>
         </article>
@@ -276,45 +285,47 @@
                     ===================== 
         -->
 
+
+
         <article class="band flex ">
-          <section class="featured-band-img flex-basis-30 ">
-            <img src=" " alt=" ">
+          <section class="featured-band-img width-35">
+            <img src="./assets/images/res.jpeg" alt="an image of the band porcupine tree" class="band-image">
           </section>
-          <section class="featured-band-info-container ">
+          <section class="featured-band-info-container width-60">
             <header>
               <h3>
-                Porcupine Tree
+                IQ
               </h3>
-              <p class="introduction "><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo error esse quidem illo facere.</i></p>
+              <p class="introduction clr-primary"><i>A brief introduction to this great band of ours.</i></p>
             </header>
+            <hr class="band-info-hr">
             <div class="featured-band-histroy ">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil saepe adipisci voluptatem voluptas magnam quibusdam quas vel tempora id, blanditiis eum expedita beatae modi. Perspiciatis quaerat nobis aut ab.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil.</p>
             </div>
           </section>
         </article>
-
         <!--        =====================
                     Sixth Band  
                     ===================== 
         -->
 
         <article class="band flex ">
-          <section class="featured-band-img flex-basis-30 ">
-            <img src=" " alt=" ">
+          <section class="featured-band-img width-35">
+            <img src="./assets/images/res.jpeg" alt="an image of the band porcupine tree" class="band-image">
           </section>
-          <section class="featured-band-info-container ">
+          <section class="featured-band-info-container width-60">
             <header>
               <h3>
-                Porcupine Tree
+                IQ
               </h3>
-              <p class="introduction "><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo error esse quidem illo facere.</i></p>
+              <p class="introduction clr-primary"><i>A brief introduction to this great band of ours.</i></p>
             </header>
+            <hr class="band-info-hr">
             <div class="featured-band-histroy ">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil saepe adipisci voluptatem voluptas magnam quibusdam quas vel tempora id, blanditiis eum expedita beatae modi. Perspiciatis quaerat nobis aut ab.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil.</p>
             </div>
           </section>
         </article>
-
 
       </section>
 
@@ -323,25 +334,25 @@
       <footer class="bg-dark ">
         <section class="partners-container flex margin-x-5 ">
           <header class="partners-header clr-light-gray ">
-            <h4>Partner</h4>
+            <h4 class="clr-light-gray">Partner</h4>
           </header>
           <ul class="partners-list flex ">
-            <li><a href="# ">PARTNER 1</a></li>
-            <li><a href="# ">PARTNER 2</a></li>
-            <li><a href="# ">PARTNER 3</a></li>
-            <li><a href="# ">PARTNER 4</a></li>
-            <li><a href="# ">PARTNER 5</a></li>
+            <li><a href="#" class="clr-light-gray">Mozzila</a></li>
+            <li><a href="# " class="clr-light-gray">Google</a></li>
+            <li><a href="# " class="clr-light-gray">NAVER</a></li>
+            <li><a href="# " class="clr-light-gray">daumkakao</a></li>
+            <li><a href="# " class="clr-light-gray">airbnb</a></li>
           </ul>
         </section>
 
         <section class="rights-container flex ">
-          <article class="flex-basis-50 ">
-            <h3>Creative commons Budha</h3>
+          <article class="width-50">
+            <h3>Creative<span class="block">commons Korea</span></h3>
           </article>
 
-          <article class="flex-basis-50 ">
+          <article class="width-50">
             <h3>01.01.01 Creative commons Jerusalem
-              <span>No rights reserved</span>
+              <span class="block">No rights reserved</span>
             </h3>
           </article>
         </section>
