@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/main.css">
+  <script src="https://kit.fontawesome.com/ff14198858.js" crossorigin="anonymous"></script>
   <title>Prog concerts</title>
 </head>
 
@@ -14,7 +16,7 @@
               ===================== 
   -->
   <header>
-    <section class="hidden settings-header">
+    <section class="none settings-header">
       <ul>
         <li><a href="#">FB</a></li>
         <li><a href="#">Twitter</a></li>
@@ -23,11 +25,13 @@
       </ul>
     </section>
     <section class="main-header">
-      <div class="hidden header-logo"></div>
+      <div class="none header-logo"></div>
 
-      <section class="drop-down">
-        <button class="menu-bar">Menu</button>
-        <ul class="nav-bar">
+      <section class="drop-down flex">
+        <div class=" menu-bar">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-bar none">
           <li class="close-menu">Close</li>
           <li><a href="#">About</a></li>
           <li><a href="#">Program</a></li>
@@ -39,284 +43,318 @@
       </section>
     </section>
   </header>
+
   <main>
 
     <!--        =====================
                     Headline  
               ===================== 
-  -->
-    <section class="headline">
+    -->
+    <article class="headline-wrapper">
+      <section class="headline margin-x-5 padding-y-10">
+        <header>
+          <h3 class="lato clr-primary">Hello Music World</h3>
+          <h1 class="main-title cocogoose clr-primary">Greatest prog concerts in the flat Earth,and probably far beyond</h1>
+        </header>
+        <section class="headline-info clr-light-gray">
+          <p>Organizing prog concerts that will melt your faces and extend your brain function, heals Lou Gehrig's disease, destructs focal dystonia and cures any disorder whatsoever known to human kind </p>
+        </section>
+        <section class="time-next-concert clr-light-gray">
+          <h3>01.01.01(BC) (MON) ~ (FRI)</h3>
+          <p>@ Bethlehem, Museum of Jerusalem</p>
+        </section>
+      </section>
+    </article>
+    <div class="divider"></div>
+
+
+    <!--        =====================
+                    Main-program  
+              ===================== 
+    -->
+    <section class="main-program bg-dark flex">
       <header>
-        <h3>Hello Music World</h3>
-        <h1>Greatest prog concerts in the Planet,and probably far beyond</h1>
+        <h2 class="clr-primary">Main program</h2>
       </header>
-      <section class="headline-ifno">
-        <p>Organizing prog concerts that will melt your faces and extend your brain function, heals Lou Gehrig's disease, destructs focal dystonia and cures any disorder whatsoever known to human kind </p>
+
+
+      <section class="program-events-container margin-x-5">
+
+        <!--      =====================
+                        day 1   
+                  ===================== 
+        -->
+
+        <section class="event flex">
+          <article class="daily-program-img">
+            <i class="fas fa-guitar"></i>
+          </article>
+          <article class="daily-program-title clr-primary">
+            <h3>Lecture</h3>
+          </article>
+          <article class="daily-program-description clr-light-gray">
+            <p>
+              Listen to the speakers from various contries about the messages of sharing and opening.
+            </p>
+          </article>
+        </section>
+
+        <!--        =====================
+                    day 2   
+                    ===================== 
+        -->
+        <section class="event flex">
+          <article class="daily-program-img">
+            <i class="fas fa-drum"></i>
+          </article>
+          <article class="daily-program-title clr-primary">
+            <h3>Lecture</h3>
+          </article>
+          <article class="daily-program-description clr-light-gray">
+            <p>
+              Listen to the speakers from various contries about the messages of sharing and opening.
+            </p>
+          </article>
+        </section>
+
+        <!--        =====================
+                    day 3  
+                    ===================== 
+        -->
+
+        <section class="event flex">
+          <article class="daily-program-img">
+            <i class="fas fa-sliders-h"></i>
+          </article>
+          <article class="daily-program-title clr-primary">
+            <h3>Lecture</h3>
+          </article>
+          <article class="daily-program-description clr-light-gray">
+            <p>
+              Listen to the speakers from various contries about the messages of sharing and opening.
+            </p>
+          </article>
+        </section>
+        <!--        =====================
+                    day 4   
+                    ===================== 
+        -->
+
+        <section class="event flex">
+          <article class="daily-program-img">
+            <i class="fab fa-creative-commons-sampling-plus"></i>
+          </article>
+          <article class="daily-program-title clr-primary">
+            <h3>Lecture</h3>
+          </article>
+          <article class="daily-program-description clr-light-gray">
+            <p>
+              Listen to the speakers from various contries about the messages of sharing and opening.
+            </p>
+          </article>
+        </section>
+
+        <!--        =====================
+                    day 5 
+                    ===================== 
+        -->
+
+        <section class="event flex">
+          <article class="daily-program-img">
+            <i class="fas fa-record-vinyl"></i>
+          </article>
+          <article class="daily-program-title clr-primary">
+            <h3>Lecture</h3>
+          </article>
+          <article class="daily-program-description clr-light-gray">
+            <p>
+              Listen to the speakers from various contries about the messages of sharing and opening.
+            </p>
+          </article>
+        </section>
       </section>
-      <section class="time-next-concert">
-        <h3>01.01.01(BC) (THU) ~ (FRI)</h3>
-        <p>@ Bethlehem, Museum of Jerusalem</p>
-      </section>
+
+
+      <section><button class="daily-program-btn bg-primary clr-light-gray">Buy Ticket for 1kg of meat</button></section>
     </section>
 
-    <section class="main-program-container">
+    <div class="divider"></div>
 
-      <!--        =====================
-                    First day  
+    <section class="featuring flex ">
+      <header>
+        <h3>Featured Bands</h3>
+      </header>
+
+      <section class="faturing-bands-container margin-x-5 flex">
+
+        <!--        =====================
+                    First Band 
                     ===================== 
         -->
-      <section class="daily-program flex">
-        <h3>Main program</h3>
-        <section class="daily-program flex">
-          <article>
-            <div class="daily-program-img">
-              <img src="" alt="">
+        <article class="band flex ">
+          <section class="featured-band-img width-35">
+            <img src="./assets/images/res.jpeg" alt="an image of the band porcupine tree" class="band-image">
+          </section>
+          <section class="featured-band-info-container width-60">
+            <header>
+              <h3>
+                IQ
+              </h3>
+              <p class="introduction clr-primary"><i>A brief introduction to this great band of ours.</i></p>
+            </header>
+            <hr class="band-info-hr">
+            <div class="featured-band-histroy ">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil.</p>
             </div>
-            <h4>Lecture</h4>
-            <p>
-              Enter description here
-            </p>
-          </article>
-        </section>
-      </section>
+          </section>
+        </article>
 
-      <!--        =====================
-                    Second day  
-                    ===================== 
-        -->
-
-      <section class="flex daily-program">
-        <h3>Main program</h3>
-        <section class="daily-program flex">
-          <article>
-            <div class="daily-program-img">
-              <img src="" alt="">
-            </div>
-            <h4>Lecture</h4>
-            <p>
-              Enter description here
-            </p>
-          </article>
-        </section>
-      </section>
-
-      <!--        =====================
-                    Third day  
-                    ===================== 
-        -->
-
-
-      <section class="flex daily-program">
-        <h3>Main program</h3>
-        <section class="daily-program flex">
-          <article>
-            <div class="daily-program-img">
-              <img src="" alt="">
-            </div>
-            <h4>Lecture</h4>
-            <p>
-              Enter description here
-            </p>
-          </article>
-        </section>
-      </section>
-
-      <!--        =====================
-                    Forth day  
-                    ===================== 
-        -->
-      <section class="flex daily-program">
-        <h3>Main program</h3>
-        <section class="daily-program flex">
-          <article>
-            <div class="daily-program-img">
-              <img src="" alt="">
-            </div>
-            <h4>Lecture</h4>
-            <p>
-              Enter description here
-            </p>
-          </article>
-        </section>
-      </section>
-
-      <!--        =====================
-                    Fifth day  
-                    ===================== 
-        -->
-      <section class="flex daily-program">
-        <h3>Main program</h3>
-        <section class="daily-program flex">
-          <article>
-            <div class="daily-program-img">
-              <img src="" alt="">
-            </div>
-            <h4>Lecture</h4>
-            <p>
-              Enter description here
-            </p>
-          </article>
-        </section>
-      </section>
-      <button class="daily-program-btn">Buy Ticket to heaven</button>
-    </section>
-
-    <section class="featured-container flex">
-
-      <!--        =====================
-                    First Band  
-                    ===================== 
-        -->
-      <h3>Featured Bands</h3>
-      <article class="featured-band">
-        <div class="featured-band-img">
-          <img src="" alt="">
-        </div>
-        <div class="featured-band-info-container">
-          <header>
-            <h3>
-              Porcupine Tree
-            </h3>
-            <p class="introduction"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo error esse quidem illo facere.</i></p>
-          </header>
-          <div class="featured-band-histroy">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil saepe adipisci voluptatem voluptas magnam quibusdam quas vel tempora id, blanditiis eum expedita beatae modi. Perspiciatis quaerat nobis aut ab.</p>
-          </div>
-        </div>
-      </article>
-
-
-      <!--        =====================
+        <!--        =====================
                     Second Band  
                     ===================== 
         -->
 
-      <article class="featured-band">
-        <div class="featured-band-img">
-          <img src="" alt="">
-        </div>
-        <div class="featured-band-info-container">
-          <header>
-            <h3>
-              Porcupine Tree
-            </h3>
-            <p class="introduction"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo error esse quidem illo facere.</i></p>
-          </header>
-          <div class="featured-band-histroy">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil saepe adipisci voluptatem voluptas magnam quibusdam quas vel tempora id, blanditiis eum expedita beatae modi. Perspiciatis quaerat nobis aut ab.</p>
-          </div>
-        </div>
-      </article>
+        <article class="band flex ">
+          <section class="featured-band-img width-35">
+            <img src="./assets/images/res.jpeg" alt="an image of the band porcupine tree" class="band-image">
+          </section>
+          <section class="featured-band-info-container width-60">
+            <header>
+              <h3>
+                IQ
+              </h3>
+              <p class="introduction clr-primary"><i>A brief introduction to this great band of ours.</i></p>
+            </header>
+            <hr class="band-info-hr">
+            <div class="featured-band-histroy ">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil.</p>
+            </div>
+          </section>
+        </article>
 
-      <!--        =====================
+
+
+        <!--        =====================
                     Third Band  
                     ===================== 
         -->
-      <article class="featured-band">
-        <div class="featured-band-img">
-          <img src="" alt="">
-        </div>
-        <div class="featured-band-info-container">
-          <header>
-            <h3>
-              Porcupine Tree
-            </h3>
-            <p class="introduction"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo error esse quidem illo facere.</i></p>
-          </header>
-          <div class="featured-band-histroy">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil saepe adipisci voluptatem voluptas magnam quibusdam quas vel tempora id, blanditiis eum expedita beatae modi. Perspiciatis quaerat nobis aut ab.</p>
-          </div>
-        </div>
-      </article>
 
-      <!--        =====================
+
+        <article class="band flex ">
+          <section class="featured-band-img width-35">
+            <img src="./assets/images/res.jpeg" alt="an image of the band porcupine tree" class="band-image">
+          </section>
+          <section class="featured-band-info-container width-60">
+            <header>
+              <h3>
+                IQ
+              </h3>
+              <p class="introduction clr-primary"><i>A brief introduction to this great band of ours.</i></p>
+            </header>
+            <hr class="band-info-hr">
+            <div class="featured-band-histroy ">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil.</p>
+            </div>
+          </section>
+        </article>
+
+        <!--        =====================
                     Forth Band  
                     ===================== 
         -->
-      <article class="featured-band">
-        <div class="featured-band-img">
-          <img src="" alt="">
-        </div>
-        <div class="featured-band-info-container">
-          <header>
-            <h3>
-              Porcupine Tree
-            </h3>
-            <p class="introduction"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo error esse quidem illo facere.</i></p>
-          </header>
-          <div class="featured-band-histroy">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil saepe adipisci voluptatem voluptas magnam quibusdam quas vel tempora id, blanditiis eum expedita beatae modi. Perspiciatis quaerat nobis aut ab.</p>
-          </div>
-        </div>
-      </article>
 
-      <!--        =====================
+
+        <article class="band flex ">
+          <section class="featured-band-img width-35">
+            <img src="./assets/images/res.jpeg" alt="an image of the band porcupine tree" class="band-image">
+          </section>
+          <section class="featured-band-info-container width-60">
+            <header>
+              <h3>
+                IQ
+              </h3>
+              <p class="introduction clr-primary"><i>A brief introduction to this great band of ours.</i></p>
+            </header>
+            <hr class="band-info-hr">
+            <div class="featured-band-histroy ">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil.</p>
+            </div>
+          </section>
+        </article>
+
+        <!--        =====================
                     Fifth Band  
                     ===================== 
         -->
-      <article class="featured-band">
-        <div class="featured-band-img">
-          <img src="" alt="">
-        </div>
-        <div class="featured-band-info-container">
-          <header>
-            <h3>
-              Porcupine Tree
-            </h3>
-            <p class="introduction"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo error esse quidem illo facere.</i></p>
-          </header>
-          <div class="featured-band-histroy">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil saepe adipisci voluptatem voluptas magnam quibusdam quas vel tempora id, blanditiis eum expedita beatae modi. Perspiciatis quaerat nobis aut ab.</p>
-          </div>
-        </div>
-      </article>
 
 
-      <!--        =====================
+
+        <article class="band flex ">
+          <section class="featured-band-img width-35">
+            <img src="./assets/images/res.jpeg" alt="an image of the band porcupine tree" class="band-image">
+          </section>
+          <section class="featured-band-info-container width-60">
+            <header>
+              <h3>
+                IQ
+              </h3>
+              <p class="introduction clr-primary"><i>A brief introduction to this great band of ours.</i></p>
+            </header>
+            <hr class="band-info-hr">
+            <div class="featured-band-histroy ">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil.</p>
+            </div>
+          </section>
+        </article>
+        <!--        =====================
                     Sixth Band  
                     ===================== 
         -->
-      <article class="featured-band">
-        <div class="featured-band-img">
-          <img src="" alt="">
-        </div>
-        <div class="featured-band-info-container">
-          <header>
-            <h3>
-              Porcupine Tree
-            </h3>
-            <p class="introduction"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat explicabo error esse quidem illo facere.</i></p>
-          </header>
-          <div class="featured-band-histroy">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil saepe adipisci voluptatem voluptas magnam quibusdam quas vel tempora id, blanditiis eum expedita beatae modi. Perspiciatis quaerat nobis aut ab.</p>
-          </div>
-        </div>
-      </article>
+
+        <article class="band flex ">
+          <section class="featured-band-img width-35">
+            <img src="./assets/images/res.jpeg" alt="an image of the band porcupine tree" class="band-image">
+          </section>
+          <section class="featured-band-info-container width-60">
+            <header>
+              <h3>
+                IQ
+              </h3>
+              <p class="introduction clr-primary"><i>A brief introduction to this great band of ours.</i></p>
+            </header>
+            <hr class="band-info-hr">
+            <div class="featured-band-histroy ">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nihil.</p>
+            </div>
+          </section>
+        </article>
+
+      </section>
     </section>
 
-
+    <div class="divider"></div>
     <footer>
-      <section class="partners-container">
-        <header class="partners-header">
-          <h4>Partner</h4>
+      <section class="partners-container flex">
+        <header class="partners-header clr-light-gray ">
+          <h4 class="clr-light-gray">Partner</h4>
         </header>
-        <ul class="partners-list flex">
-          <li><a href="">PARTNER 1</a></li>
-          <li><a href="">PARTNER 2</a></li>
-          <li><a href="">PARTNER 3</a></li>
-          <li><a href="">PARTNER 4</a></li>
-          <li><a href="">PARTNER 1</a></li>
+        <ul class="partners-list flex ">
+          <li><a href="#" class="clr-light-gray">Mozzila</a></li>
+          <li><a href="# " class="clr-light-gray">Google</a></li>
+          <li><a href="# " class="clr-light-gray">NAVER</a></li>
+          <li><a href="# " class="clr-light-gray">daumkakao</a></li>
+          <li><a href="# " class="clr-light-gray">airbnb</a></li>
         </ul>
       </section>
 
-      <section class="rights-container flex">
-        <article>
-          <h3>Creative commons Budha</h3>
+      <section class="rights-container flex ">
+        <article class="width-50">
+          <h3>Creative<span class="block">commons Korea</span></h3>
         </article>
 
-        <article>
+        <article class="width-50">
           <h3>01.01.01 Creative commons Jerusalem
-            <span>No rights reserved</span>
+            <span class="block">No rights reserved</span>
           </h3>
         </article>
       </section>
