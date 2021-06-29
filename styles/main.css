@@ -118,8 +118,8 @@ ul {
 .main-header {
   background-image: url(../assets/images/headline-bg.jpg);
   background-repeat: no-repeat;
-  background-size: 250%;
-  background-position: center top;
+  background-size: 300%;
+  background-position: 70% top;
   height: 80px;
 }
 
@@ -166,14 +166,13 @@ ul {
   opacity: 0.2;
   background: url(../assets/images/headline-bg.jpg);
   background-repeat: no-repeat;
-  background-size: 250%;
-  background-position: center -80px;
+  background-size: 300%;
+  background-position: 70% -80px;
 }
 
 .headline-info {
   border: 0.5px solid #fff;
   padding: 10px;
-  margin-bottom: 20px;
 }
 
 .main-title {
@@ -188,6 +187,19 @@ ul {
   border: none;
   font-weight: bold;
   margin: 20px 0;
+}
+
+.headline-footer {
+  background-image: url(../assets/images/headline-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 70% bottom;
+  background-size: 300%;
+  height: 80px;
+}
+
+.time-next-concert {
+  font-size: 15px;
+  margin-top: 20px;
 }
 
 .divider {
