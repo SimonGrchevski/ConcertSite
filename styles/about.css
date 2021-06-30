@@ -1,0 +1,369 @@
+  /* =================================
+              General rules
+   =================================
+ */
+  
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: Lato;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .none {
+    display: none;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .margin-x-5 {
+    margin: 0 5%;
+  }
+  
+  .width-20 {
+    width: 20%;
+  }
+  
+  .width-35 {
+    width: 35%;
+  }
+  
+  .width-50 {
+    width: 50%;
+  }
+  
+  .width-60 {
+    width: 60%;
+  }
+  
+  .width-70 {
+    width: 70%;
+  }
+  /* =================================
+              Color palette
+   =================================
+ */
+  
+  .bg-dark {
+    background-color: #272a31;
+  }
+  
+  .clr-dark {
+    color: #272a31;
+  }
+  
+  .clr-primary {
+    color: #ec5242;
+  }
+  
+  .bg-primary {
+    background-color: #ec5242;
+  }
+  
+  .clr-light-gray {
+    color: #d3d3d3;
+  }
+  
+  .bg-light-gray {
+    background-color: #d3d3d3;
+  }
+  /* =================================
+              Typogrpahy
+   =================================
+ */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+  @font-face {
+    font-family: "cocogoose";
+    src: url('../assets/fonts/COCOGOOSELETTERPRESS\ TRIAL.ttf');
+  }
+  
+  .lato {
+    font-family: Lato, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .cocogoose {
+    font-family: cocogoose, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  /* =================================
+              Header
+   =================================
+ */
+  
+  .main-header {
+    background-image: url(../assets/images/headline-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 415%;
+    background-position: 70% top;
+    height: 80px;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .drop-down {
+    text-align: center;
+    justify-content: space-around;
+  }
+  
+  .drop-down i {
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
+  }
+  /* =================================
+              Headline
+   =================================
+ */
+  
+  .headline {
+    padding: 30px 0 20px 0;
+    position: relative;
+    z-index: 1;
+    padding: 10% 0;
+  }
+  
+  .headline-wrapper {
+    position: relative;
+    height: calc(100vh - 160px);
+  }
+  
+  .headline-wrapper::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url(../assets/images/headline-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 64%
+  }
+  
+  .headline-info {
+    border: 0.3px solid #fff;
+    padding: 10px;
+  }
+  
+  .main-title {
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+  }
+  
+  .daily-program-btn {
+    padding: 20px;
+    border: none;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  .headline-footer {
+    background-image: url(../assets/images/headline-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 70% bottom;
+    background-size: 412%;
+    height: 80px;
+  }
+  
+  .time-next-concert {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  
+  .contact-us {
+    position: relative;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .divider {
+    background: linear-gradient(to right, #ec5342e8 20%, #000);
+    width: 100%;
+    height: 1px;
+    padding: 1px;
+  }
+  
+  .partners-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(to bottom, #000 80%, #ec5242);
+    opacity: 0.3;
+  }
+  
+  .partners-container {
+    position: relative;
+    background-image: url(../assets/images/blackbg.jpeg);
+    background-size: cover;
+    background-position-y: 45%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    background-repeat: no-repeat;
+  }
+  
+  .partners-header::after {
+    content: '';
+    display: block;
+    padding: 1px;
+    width: 60%;
+    background-color: #ec5242;
+    margin: 5px auto;
+  }
+  
+  .partners-list {
+    justify-content: center;
+    font-size: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .partners-list>li {
+    padding: 10px;
+  }
+  
+  .rights-container {
+    background-color: #fff;
+    justify-content: end;
+    align-items: center;
+    padding: 0 5%;
+    height: 150px;
+    font-size: 12px;
+    padding: 20px;
+  }
+  
+  .wrapper {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .padding-x-10 {
+    padding: 0 10%;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .logo-article {
+    padding: 50px;
+  }
+  
+  .logo-info {
+    font-size: 20px;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .logo-article h3 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  
+  .logo img {
+    width: 80%;
+    height: 80%;
+  }
+  
+  .logo {
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .history {
+    margin-top: 30px;
+  }
+  
+  .history header,
+  .brief-info {
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    /* border: 0.5px solid #000; */
+    box-shadow: 0 0 0 0.3px #000;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+  
+  .concert-image {
+    margin-bottom: 20px;
+  }
+  
+  .image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #ec5242;
+    opacity: 0.4;
+  }
+  
+  .partners-container {
+    padding: 30px;
+  }
+  
+  @media only screen and (min-width: 738px) {
+    .image-wrapper {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .image-container {
+      width: 40%;
+      margin-bottom: 10px;
+    }
+    .image-info h3 {
+      font-size: 40px;
+    }
+    .image-info p {
+      font-size: 30px;
+    }
+  }
