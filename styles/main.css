@@ -94,6 +94,7 @@ ul {
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
 @font-face {
   font-family: "cocogoose";
   src: url('../assets/fonts/COCOGOOSELETTERPRESS\ TRIAL.ttf');
@@ -278,7 +279,7 @@ ul {
   font-weight: bold;
 }
 
-.event>* {
+.event > * {
   padding-right: 25px;
 }
 
@@ -379,7 +380,7 @@ ul {
   flex-wrap: wrap;
 }
 
-.partners-list>li {
+.partners-list > li {
   padding: 10px;
 }
 
@@ -409,7 +410,7 @@ ul {
     flex-direction: column;
     align-items: flex-end;
   }
-  
+
   .header-logo {
     display: block;
     margin-right: 200px;
@@ -477,7 +478,7 @@ ul {
     padding: 0;
   }
 
-  .headline>* {
+  .headline > * {
     max-width: 60%;
   }
 
@@ -502,8 +503,8 @@ ul {
     flex-direction: column;
     width: 19%;
   }
-  
-  .event>* {
+
+  .event > * {
     padding: 0;
   }
 
