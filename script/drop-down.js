@@ -2,7 +2,6 @@ const btn = document.querySelector('.menu-bar');
 const nav = document.querySelector('.nav-bar');
 const closeBtn = document.querySelector('.close-menu');
 
-
 function displayMenu() {
   nav.classList.replace('none', 'display');
   btn.classList.replace('block', 'none');
@@ -13,10 +12,10 @@ function closeMenu() {
   btn.classList.replace('none', 'block');
 }
 
-closeBtn.addEventListener('click', function() {
+closeBtn.addEventListener('click', () => {
   closeMenu();
 });
 
-btn.addEventListener('click', function() {
+btn.addEventListener('click', () => {
   displayMenu();
 });
