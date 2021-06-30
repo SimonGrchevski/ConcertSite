@@ -468,3 +468,72 @@
       background-color: #fff;
     }
   }
+  /*
+    ==================================
+          About 
+    ==================================
+   */
+  /* img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .wrapper {
+    flex-direction: column;
+    padding: 40px 10%;
+  }
+  
+  main {
+    text-align: center;
+  }
+  
+  .prog-rock {
+    margin-top: 30px;
+  }
+  
+  .prog-rock>* {
+    margin-top: 30px;
+  }
+  
+  .prog-rock-info header,
+  .logo-presentation {
+    padding: 30px 0;
+  }
+  
+  .previous-concerts header {
+    padding: 30px 0;
+  }
+  
+  .previous-concert {
+    position: relative;
+  }
+  
+  .date-place {
+    position: absolute;
+    color: #fff;
+    top: 70px;
+    left: 70px;
+    font-size: 20px;
+  }
+  
+  .previous-concert {
+    margin-bottom: 20px;
+    border: 1px solid black;
+  }
+  
+  .previous-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #ec5242;
+    opacity: 0.5;
+  }
+  
+  .headline-info {
+    background-color: #fff;
+    color: #272a31;
+  } */
