@@ -266,6 +266,7 @@ ul {
   background-image: url(../assets/images/blackbg.jpeg);
   background-size: cover;
   background-position-y: 45%;
+  background-position-x: 50%;
   width: 100%;
   flex-direction: column;
   align-items: center;
@@ -498,10 +499,27 @@ img {
 }
 
   .image-wrapper {
+    position: relative;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
   }
+
+  .image-wrapper::before 
+  {
+    display: block;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    content: "";
+    height: 50%;
+    width: 100px;
+    transform:translate(-50%, -50%);
+    background: url(../assets/images/vertical-div.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 46%;
+  } 
 
   .image-container {
     width: 40%;
@@ -525,3 +543,4 @@ img {
     margin-right: 200px;
   }
 }
+

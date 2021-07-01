@@ -359,6 +359,7 @@ ul {
   background-image: url(../assets/images/blackbg.jpeg);
   background-size: cover;
   background-position-y: 45%;
+  background-position-x: 50%;
   width: 100%;
   flex-direction: column;
   align-items: center;
