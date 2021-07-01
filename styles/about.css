@@ -403,7 +403,7 @@ img {
 
   .main-header {
     justify-content: flex-end;
-    align-items: baseline;
+    align-items: inherit;
     padding-top: 20px;
     height: 100px;
     height: 100px;
