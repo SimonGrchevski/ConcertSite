@@ -436,8 +436,10 @@ img {
     display: flex;
     justify-content: space-around;
     width: 100%;
-
-    /* padding-right: 15%; */
+    background: none;
+    opacity: 1;
+    height: inherit;
+    position: inherit;
   }
 
   .close-menu {
