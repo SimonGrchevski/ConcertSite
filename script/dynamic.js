@@ -1,4 +1,4 @@
-let cards;
+let bands;
 const container = document.querySelector('.faturing-bands-container');
 
 function Tag(tagName, classes, src, alt,child, value) {
@@ -31,7 +31,7 @@ const tags = [{
 ];
 
 
-function generateCards() {
+function generateBands() {
   const articles = [];
   tags.forEach((tag) => {
     const article = document.createElement(tag.tagName);
@@ -64,12 +64,11 @@ function generateCards() {
   return articles;
 }
 
-function populateCards(cards) {
-  console.log(cards[0]);
-  for (let i = 0; i < 7; i += 1) {
-    container.append(cards[0].cloneNode(true));
+function populateBands(bands) {
+  for (let i = 0; i < 6; i += 1) {
+    container.append(bands[0].cloneNode(true));
   }
 }
 
-cards = generateCards();
-populateCards(cards);
+bands = generateBands();
+populateBands(bands);
