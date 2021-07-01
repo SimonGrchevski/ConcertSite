@@ -123,6 +123,10 @@ ul {
   width: 100%;
 }
 
+.header-logo {
+  display: none;
+}
+
 .drop-down {
   text-align: center;
   justify-content: space-around;
@@ -390,12 +394,26 @@ img {
 
   .header-logo {
     display: block;
-    margin-right: 200px;
+  }
+
+  .header-logo a {
+    display: block;
+    color: white;
   }
 
   .main-header {
     justify-content: flex-end;
+    align-items: baseline;
+    padding-top: 20px;
+    height: 100px;
+    height: 100px;
   }
+
+  .main-header img {
+    width:80px;
+    height: 80px;
+  }
+  
 
   .main-header,
   .settings-header {
@@ -446,6 +464,10 @@ img {
     display: none;
   }
 
+  .headline-wrapper {
+    padding-top: 50px;
+  }
+
   .headline-footer {
     display: none;
   }
@@ -485,5 +507,14 @@ img {
 
   .image-info p {
     font-size: 30px;
+  }
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+  .header-logo 
+  {
+    margin-right: 200px;
   }
 }

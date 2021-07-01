@@ -413,11 +413,24 @@ ul {
 
   .header-logo {
     display: block;
-    margin-right: 200px;
+  }
+
+  .header-logo a {
+    display: block;
+    color: white;
   }
 
   .main-header {
     justify-content: flex-end;
+    justify-content: flex-end;
+    align-items: baseline;
+    padding-top: 20px;
+    height: 100px;
+  }
+
+  .main-header img {
+    width:80px;
+    height:80px;
   }
 
   .main-header,
@@ -433,6 +446,7 @@ ul {
   .settings-header {
     display: block;
     background: linear-gradient(to top, #111 60%, #000);
+    height: 20px;
   }
 
   .settings-header-ul {
@@ -467,6 +481,10 @@ ul {
 
   .close-menu {
     display: none;
+  }
+
+  .headline-wrapper {
+    padding-top: 50px;
   }
 
   .headline-footer {
@@ -532,5 +550,13 @@ ul {
 
   .footer {
     background-color: #fff;
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .header-logo 
+  {
+    margin-right: 200px;
   }
 }
