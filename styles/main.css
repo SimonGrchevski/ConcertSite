@@ -324,9 +324,8 @@ ul {
 }
 
 .featured-band-info-container h3 {
-  padding-bottom: 3px;
   color: #d3d3d3;
-  padding-bottom:20px;
+  padding-bottom: 20px;
 }
 
 .band-info-hr {
@@ -427,15 +426,14 @@ ul {
 
   .main-header {
     justify-content: flex-end;
-    justify-content: flex-end;
     align-items: inherit;
     padding-top: 20px;
     height: 100px;
   }
 
   .main-header img {
-    width:80px;
-    height:80px;
+    width: 80px;
+    height: 80px;
   }
 
   .main-header,
@@ -558,10 +556,8 @@ ul {
   }
 }
 
-
 @media only screen and (min-width: 1024px) {
-  .header-logo 
-  {
+  .header-logo {
     margin-right: 200px;
   }
 }
