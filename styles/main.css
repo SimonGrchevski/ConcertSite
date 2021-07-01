@@ -135,8 +135,7 @@ ul {
 }
 
 .nav-bar {
-  background-color: #fff;
-  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.925);
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -159,6 +158,8 @@ ul {
 
 .nav-bar a {
   color: #ec5242;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* =================================
@@ -396,7 +397,8 @@ ul {
 .nav-bar li:first-child {
   text-align: right;
   font-size: 30px;
-  color: #000;
+  color: #d3d3d3;
+  font-weight: bold;
   align-self: flex-end;
 }
 
