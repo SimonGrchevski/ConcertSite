@@ -21,6 +21,13 @@ cd into the HTML-CSS-JavaScript-capstone-project rep.
 In terminal write $code .
 Open the live server
 
+
+## Record a video
+  The video that I recorded my self, explaining the webpage
+  and for which part I am pround of.
+
+[Loom]( https://www.loom.com/share/35615c396c3045c583a278634c3cb3a3 )
+
 Prerequisites
 
     Vs code Studio
