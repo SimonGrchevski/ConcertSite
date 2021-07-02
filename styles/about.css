@@ -328,7 +328,9 @@ ul {
 }
 
 .logo-info {
-  font-size: 30px;
+  font-size: 15px;
+  width: 69%;
+  margin: 0 auto;
 }
 
 .logo-img {
@@ -490,6 +492,10 @@ img {
   .headline h1 {
     font-size: 50px;
     line-height: 50px;
+  }
+
+  .logo-info {
+    width: 50%;
   }
 
   .logo-img {
